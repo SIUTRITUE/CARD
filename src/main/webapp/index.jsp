@@ -49,6 +49,16 @@
             </form>
         </td>
     </tr>
+    <tr>
+        <td>Test album</td>
+        <td class="right">$5.00</td>
+        <td>
+            <form action="cart" method="post">
+                <input type="hidden" name="productCode" value="mk17">
+            </form>
+        </td>
+    </tr>
+</table>
 </table>
 </body>
 </html>

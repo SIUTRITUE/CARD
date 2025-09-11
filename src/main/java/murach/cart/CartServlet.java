@@ -46,6 +46,11 @@ public class CartServlet extends HttpServlet {
                 product.setCode(productCode);
                 product.setDescription("Joe Rut - Genuine Wood Grained Finish");
                 product.setPrice(14.95);
+            } else if ("mk17".equals(productCode)) {
+                product.setCode(productCode);
+                product.setDescription("Test Album");
+                product.setPrice(5.00);
+
             }
 
             LineItem lineItem = new LineItem();
