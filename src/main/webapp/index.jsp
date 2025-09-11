@@ -55,6 +55,7 @@
         <td>
             <form action="cart" method="post">
                 <input type="hidden" name="productCode" value="mk17">
+                <input type="submit" value="Add To Cart">
             </form>
         </td>
     </tr>
